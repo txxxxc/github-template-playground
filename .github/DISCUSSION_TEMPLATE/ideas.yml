@@ -63,7 +63,6 @@ body:
       label: "原因だと思われる箇所(render: swift)"
       description: 原因だと思われるコードを貼ってください！(GitHubのpermalinkでもOKです！！)
       placeholder: 原因だと思われるコードを貼る
-      value: |
     validations:
       required: true
   - type: textarea
