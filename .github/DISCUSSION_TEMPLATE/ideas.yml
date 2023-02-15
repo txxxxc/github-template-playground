@@ -64,9 +64,6 @@ body:
       description: 原因だと思われるコードを貼ってください！(GitHubのpermalinkでもOKです！！)
       placeholder: 原因だと思われるコードを貼る
       value: |
-        ```swift
-        // この中にコピペする
-        ```
     validations:
       required: true
   - type: textarea
