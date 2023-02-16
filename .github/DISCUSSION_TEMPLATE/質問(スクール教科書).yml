@@ -78,7 +78,7 @@ body:
       label: スクリーンショット(あれば)
       description: エラーが発生したところのスクリーンショットを貼ってください！
       placeholder: エラーが発生している部分
-      validations:
+    validations:
       required: false
   - type: textarea
     id: other
