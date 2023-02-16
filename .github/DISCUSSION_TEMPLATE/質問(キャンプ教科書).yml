@@ -1,0 +1,101 @@
+title: "[質問]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## タイトルについて
+        タイトルには質問したい内容をできるだけ具体的に書いてください！
+        ### 例
+        ```
+          - Realmに保存した画像のパスを画像に変換できない
+          - CollectionViewのCell内に、画面を長押ししたら画像が表示されるようにしたい
+          - 変更したimageviewとlabelのデータをアプリを再起動しても変更した情報が残っているようにしたい
+        ```
+  - type: dropdown
+    id: textbook-name
+    attributes:
+      label: 教科書の名前
+      description: 該当する教科書を選択してください！
+      multiple: false
+      options:
+        - 【環境構築】素材をダウンロードしよう
+        - Macの使い方を知ろう
+        - カウント
+        - カウントアレンジ
+        - Tips: アイコンをつけよう
+        - Tips: 実機登録をしよう
+        - Tips: 補完を使おう
+        - サウンドアプリを作ろう！
+        - サウンドアプリを作ろう！
+        - サウンドアプリ -チャレンジ
+        - サウンドアプリ -チャレンジ
+        - クイズアプリ
+        - プロフィールアプリを作ろう①
+        - プロフィールアプリを作ろう②
+        - プロフィールアプリを作ろう③
+        - プロフィールアプリを作ろう④
+        - プロフィールアプリを作ろう -チャレンジ-
+        - アルゴリズム
+        - 連打アプリを作ろう
+        - Tips：文字の装飾
+        - Tips：ボタンの装飾（角丸）
+        - いつだれゲーム
+        - ガチャアプリ
+        - 単語帳アプリ
+        - バラバラゲーム
+        - フォトマスター
+        - 迷路ゲーム
+        - テクモン
+        - Databaseを使おう(Realm)
+    validations:
+      required: true
+  - type: input
+    id: page-number
+    attributes:
+      label: エラーが発生したページ数
+      description: エラーが発生したページ数を教えて下さい。
+      placeholder: p23
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: エラーの概要
+      description: エラーの概要について教えて下さい！
+      placeholder: 例：Realmに保存した画像のパスを画像に変換できない
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: スクリーンショット(あれば)
+      description: エラーが発生したところのスクリーンショットを貼ってください！
+      placeholder: エラーが発生している部分
+    validations:
+      required: false
+  - type: textarea
+    id: other
+    attributes:
+      label: その他
+      description: その他共有事項があればここに書いてください！
+      placeholder: その他
+    validations:
+      required: false
+  - type: input
+    id: github-url
+    attributes:
+      label: GitHubのURL
+      description: | 
+        GitHubのリポジトリを教えて下さい！
+        かならず該当するコードがアップロードされていることを確認してください！
+      placeholder: https://github.com/username/repository-name
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: TODOリスト
+      description: 最後に以下の作業を行ったか確認お願いします！
+      options:
+        - label: GitHubに最新のコードをアップロードしました。
+        - label: できるだけ具体的なタイトルを設定しました。
